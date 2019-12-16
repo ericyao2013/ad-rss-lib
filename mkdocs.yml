@@ -1,0 +1,23 @@
+site_name: FabianRSS
+repo_url: https://github.com/fabianoboril/ad-rss-lib
+docs_dir: doc
+edit_uri: 'edit/master/doc/'
+theme: readthedocs
+
+nav:
+- Home: index.md
+- Background:
+  - Overview: background/Overview.md
+- Doxygen: 'https://fabianoboril.github.io/ad-rss-lib/doxygen/html/index.html'
+- Code Coverage: 'https://fabianoboril.github.io/ad-rss-lib/coverage/'
+- FAQ: FAQ.md
+- Release Notes: CHANGELOG.md
+
+markdown_extensions:
+  - admonition
+  - markdown_include.include:
+      base_path: '.'
+  - toc:
+      toc_depth: 2-3
+  - pymdownx.emoji
+  - mdx_truly_sane_lists
